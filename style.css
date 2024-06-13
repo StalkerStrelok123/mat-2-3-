@@ -3,8 +3,8 @@
 :root {
     --cor-de-fundo: #1e1e1e;
     --verde: #0a1807;
-    --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
+    --branco: #ffffff;
+    --botao-ativo: #084206;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
@@ -13,4 +13,24 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
     font-family: 'Tiny5', 'Tiny5-static';
+}
+
+.conteudo-principal {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+}
+
+.titulo-principal {
+text-align: left;
+width: 100% ;
+font-size: 32px;
+}
+
+.botao {
+font-family:'Tiny5', 'Tiny5-static' ;
 }
